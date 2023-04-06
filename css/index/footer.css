@@ -1,0 +1,66 @@
+
+.footer
+{
+    margin-left: 22%;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 14px;
+    width: 52%;
+}
+
+.footer a
+{
+    color: black;
+}
+
+.footer a:hover
+{
+    text-decoration: underline;
+}
+
+.footer .text .explain
+{
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(210,210,215);
+    border-bottom-style: solid;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+
+.footer .text .copyr_right
+{
+    margin-bottom: 10px;
+}
+
+.footer .links h4
+{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.footer .links li
+{
+    float: left;
+}
+
+.footer .links .link_li
+{
+    border-right-width: 1px;
+    border-right-color: rgb(210,210,215);
+    border-right-style: solid;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.footer_nav_div
+{
+    background: #69697b;
+    opacity: 0.9;
+    height: 30px;
+}
+.footer_pfont
+{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+

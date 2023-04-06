@@ -1,0 +1,204 @@
+
+.background_story
+{
+    position: relative;
+    margin-top: 0px;
+}
+.background_story .background
+{
+    margin: 0px;
+    height: 750px;
+}
+
+.background_story .ani_huajuan
+{
+    clear: both;
+    float: right;
+    position: relative;
+    opacity: 0;
+    right: -100px;
+    transition: right 1.2s ease 0s, opacity 1.4s ease 0s;
+}
+
+.background_story .text
+{
+    position: absolute;
+    top: 40px;
+    left: -50px;
+    opacity: 0;
+    transition: left 2s ease 0.3s, opacity 2s ease 0.3s;
+    text-shadow: 2px 2px 4px rgb(128,128,128,0.7);
+}
+
+.background_story .text h2
+{
+    font-size: 45px;
+}
+
+.background_story .text h3
+{
+    margin-left: 5px;
+}
+
+.background_story ul
+{
+    border-left-color: black;
+    border-left-width: 1px;
+    border-left-style: dashed;
+
+}
+
+.background_story .content_ul
+{
+    position: absolute;
+    top: 180px;
+    left: -5%;
+    opacity: 0;
+    transition: opacity 2s ease 0.8s, left 1.8s ease 0.8s;
+}
+
+.background_story li
+{
+    margin-bottom: 90px;
+    font-size: 17px;
+    margin-left: 29px;
+    height: 31px;
+    line-height: 31px;
+    width: 136px;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    transition: transform 0.2s cubic-bezier(0.66,-0.01, 0.85, 0.91);
+}
+
+.background_story li:hover
+{
+    background-position: 0 0;
+    width: 136px;
+    height: 31px;
+    margin-left: 29px;
+    background-repeat: no-repeat;
+}
+
+.background_story .content
+{
+    opacity: 0;
+    transition: opacity 1.8s cubic-bezier(0.76, 0, 0.87, 0.63) 1.2s;
+}
+
+.background_story .contentAll p
+{
+    max-width: 720px;
+    min-width: 720px;
+    margin-top: 30px;
+}
+
+.background_story .contentAll
+{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,0);
+    opacity: 0;
+    right: 760px;
+    transition: right 0.6s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+/* 1.历史环境 */
+.background_story .li1
+{
+    color: white;
+    background-image: url(../../img/background_story/ul_backg/spr_b1.png);
+}
+.feature1_bj
+{
+    position: relative;
+    left: -15px;
+    width: 750px;
+    height: 470px;
+}
+
+.background_story .content1
+{
+    opacity: 1;
+    right: 0px;
+}
+
+/* 2.涂山 */
+
+.feature2_bj
+{
+    position: relative;
+    left: -15px;
+    width: 770px;
+    height: 490px;
+}
+
+.background_story .content2
+{
+    opacity: 0;
+}
+
+/* 3.再续前缘 */
+.feature3_bj
+{
+    position: relative;
+    left: -15px;
+    width: 750px;
+    height: 470px;
+}
+
+.background_story .content3
+{
+    opacity: 0;
+}
+
+
+/* 4.红线仙 */
+.feature4_bj
+{
+    position: relative;
+    left: -15px;
+    width: 780px;
+    height: 480px;
+}
+
+.feature4_rw
+{
+    float: left;
+    position: relative;
+    top: -508px;
+    left: 225px;
+    width: 500px;
+    height: 400px;
+}
+
+.background_story .content4 p
+{
+    margin-left: 40px;
+}
+
+.background_story .content4
+{
+    margin-top: 20px;
+    opacity: 0;
+}
+
+/* 5.一气道盟 */
+.feature5_bj
+{
+    position: relative;
+    left: -15px;
+    width: 780px;
+    height: 480px;
+}
+
+.background_story .content5 p
+{
+    margin-left: 40px;
+}
+
+.background_story .content5
+{
+    margin-top: 40px;
+    opacity: 0;
+}

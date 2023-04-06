@@ -1,0 +1,122 @@
+.first_page
+{
+    margin-bottom: 30px;
+}
+
+.first_page .background
+{
+    background-image: url(../../img/head/head_background.jpg);
+    background-repeat: no-repeat;
+}
+
+.head_left
+{
+    width: 35%;
+    /* height: 100%; */
+    position: relative;
+    opacity: 0;
+    left: -200px;
+    transition: left 1.3s ease-in-out 0.1s, opacity 1.4s ease-in-out 0.1s;
+}
+
+.head_right
+{
+    width: 58%;
+    position: relative;
+    opacity: 0;
+    right: -200px;
+    transition: right 1.3s ease-in-out 0.1s, opacity 1.4s ease-in-out 0.1s;
+    float: right;
+    
+}
+
+@keyframes move_lamp
+{
+    from {left: 370px;}
+    to {left: 420px;}
+}
+
+.head_lamp
+{
+    position: absolute;
+    top: 140px;
+    left: 170px;
+    opacity: 0;
+    transition: left 1.2s ease-in-out 0.3s, opacity 1.4s ease-in-out 0.3s;
+    animation-name: move_lamp;
+    animation-duration: 4s;
+    animation-delay: -1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.3,-0.03, 0.78, 0.99);
+    
+}
+
+@keyframes move_bird
+{
+    from {right: 376px;}
+    to {right: 420px;}
+}
+
+.head_bird
+{
+    position: absolute;
+    top: 85px;
+    right: 176px;
+    opacity: 0;
+    transition: right 1.2s ease-in-out 0.3s, opacity 1.4s ease-in-out 0.3s;
+    animation-name: move_bird;
+    animation-duration: 4s;
+    animation-delay: -2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.3,-0.03, 0.78, 0.99);
+}
+
+.first_page .first_page_text
+{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity 0.7s cubic-bezier(0, 0, 0.76, 0.02) 0.6s, transform 1.4s ease-out;
+}
+
+.head_center
+{
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    top: 200px;
+}
+
+.first_page .first_page_text h3
+{
+    min-width: 250px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    top: 466px;
+    font-size: 25px;
+    font-family: 楷体;
+    font-weight: normal;
+    color: rgb(71,83,142);
+    text-shadow: 2px 2px 4px rgb(128,128,128,0.7);
+}
+
+.first_page .first_page_text p
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    top: 540px;
+    width: 480px;
+    font-size: 16px;
+}

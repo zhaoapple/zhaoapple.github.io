@@ -1,0 +1,56 @@
+.video_playback
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ani_fox
+{
+    zoom: 1.1;
+    transform: scaleY(1.1);
+    position: relative;
+    left: -200px;
+    opacity: 0;
+    transition: left 1.2s ease 0s, opacity 1.2s ease 0s;
+}
+
+.video_playback .text
+{
+    position: absolute;
+    top: -80px;
+    right: -50px;
+    opacity: 0;
+    text-shadow: 2px 2px 4px rgb(128,128,128,0.7);
+    transition: right 2s ease 0.5s, opacity 2s ease 0.5s;
+}
+
+.video_playback .text h2
+{
+    font-size: 45px;
+}
+
+.video_playback .text h3
+{
+    margin-left: 5px;
+}
+
+.video_play
+{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    height: 558px;
+    width: 995px;
+    background-color: rgb(254,254,246);
+    border-radius: 30px;
+    overflow: hidden;
+    opacity: 0;
+    transition: left 2s ease 1s, opacity 2s ease 1s;
+    box-shadow: 15px 15px 20px 10px rgb(0,0,0,0.2), -5px -5px 20px 0 rgb(0,0,0,0.2);
+}
+
+.video_play video
+{
+    margin-top: -2px;
+    margin-left: -2px;
+}

@@ -1,0 +1,122 @@
+body
+{
+    font-size: 16px;
+    font-family: 楷体;
+    background-image: url(../../img/log_in/海底树.jpg);
+    user-select: none;
+}
+.main
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    box-shadow: 15px 15px 20px 10px rgb(0,0,0,0.2), -5px -5px 20px 0 rgb(0,0,0,0.2);
+}
+
+.main img
+{
+    transform: scale(0.5);
+}
+
+.text_input
+{
+    margin: 10px;
+    text-align: center;
+    transform: scale(1.2);
+    position: relative;
+    top: -30px;
+}
+
+input
+{
+    margin: 10px;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 10px;
+    line-height: 20px;
+    opacity: 0.7;
+    font-family: 楷体;
+    font-size: 14px;
+}
+
+input::placeholder
+{
+    font-size: 12px;
+    font-family: 楷体;
+    line-height: 20px;
+    color: gray;
+}
+
+input:focus
+{
+    outline:none;
+    opacity: 0.95;
+}
+
+.pass_word i
+{
+    position: absolute;
+    top: 55px;
+    left: 315px;
+    color: gray;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.button_div
+{
+    text-align: center;
+}
+
+.button_div input
+{
+    width: 21%;
+    padding: 0px;
+    font-family: 楷体;
+    line-height: 20px;
+}
+
+.button_div button
+{
+    width: 21%;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    font-family: 楷体;
+    line-height: 20px;
+    opacity: 0.7;
+}
+
+button:focus
+{
+    outline:none;
+}
+
+.background
+{
+    height: 406px;
+    width: 478px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.background img
+{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 365px;
+    left: 431px;
+    transform: translate(-50%,-50%);
+    filter: blur(2px);
+    opacity: 1;
+}

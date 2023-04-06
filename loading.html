@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading</title>
+    <link rel="icon" href="img/hu_icon2.png">
+    <style>
+        body
+        {
+            position: relative;
+            text-align: center;
+        }
+        div
+        {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translate(-50%,0);
+            text-align: center;
+        }
+        div h3
+        {
+            position: absolute;
+            left: 51%;
+            bottom: 20px;
+            transform: translate(-50%,0);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img/loading.gif" />
+        <h3>拼命加载中，请稍后……</h3>
+    </div>
+
+    <script>
+        var t = 4.5;
+        var loc = location.href;
+        var str=loc.lastIndexOf("\?");
+        str=loc.substring(str+1,loc.length);
+        console.log(str);
+        setInterval("jishi()", 1000*t);
+        function jishi()
+        {
+            if(str=="index")
+                location="index.html";
+            else if(str=="audio_visual_feast")
+                location="audio_visual_feast.html"
+            else if(str=="anchor_profile")
+                location="index.html#anchor_profile"
+            else if(str=="anchor_background_story")
+                location="index.html#anchor_background_story";
+            else
+                location="log_in.html";
+        }
+    </script>
+</body>
+</html>
