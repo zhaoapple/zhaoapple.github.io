@@ -31,16 +31,6 @@ a {
     text-decoration: none;
 }
 
-/* 设置网页页面的背景颜色 */
-.all_page
-{
-    background-color: rgb(254,254,246);
-    max-width: 1800px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%,0);
-    overflow: hidden;
-}
 
 i
 {

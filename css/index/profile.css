@@ -1,6 +1,6 @@
 .profile
 {
-    margin-top: 100px;
+    margin-top: 10px;
     position: relative;
     background-image: url(../../img/profile/figure_background.jpg);
 }
@@ -37,7 +37,7 @@
 .profile_content_ul
 {
     width: 350px;
-    position: absolute; 
+    position: absolute;
     right: -250px;
     top: 120px;
     opacity: 0;
@@ -127,7 +127,7 @@
     opacity: 0;
     transform: rotateY(180deg);
     transition: opacity 1.2s ease 0.3s, transform 1.2s ease 0.3s;
-    
+
 }
 
 .profile_content .figure_name
